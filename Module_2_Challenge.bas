@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "Module2_Challenge"
 Sub stock_analysis()
 
     Dim ws As Worksheet
