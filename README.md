@@ -1,6 +1,8 @@
 # VBA-challenge
 
 Attribute VB_Name = "Module2_Challenge"
+###
+
 Sub stock_analysis()
 
   'Create a variable for the worksheet and others
