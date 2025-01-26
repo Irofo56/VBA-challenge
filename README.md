@@ -1,56 +1,19 @@
-# VBA-challenge
+Instructions
 
-Attribute VB_Name = "Module2_Challenge"
-###
+Create a script that loops through all the stocks for each quarter and outputs the following information:
+The ticker symbol
+Quarterly change from the opening price at the beginning of a given quarter to the closing price at the end of that quarter.
+The percentage change from the opening price at the beginning of a given quarter to the closing price at the end of that quarter.
+The total stock volume of the stock. The result should match the following image:
+Moderate solution
 
-Sub stock_analysis()
+Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
+Hard solution
 
-  'Create a variable for the worksheet and others
-    Dim ws As Worksheet
-    Dim i As an Integer
-    
+Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every quarter) at once.
+NOTE
+Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
+Other Considerations
 
-    'Loop through Sheets 1 to 6 for ThisWorkBook
-    
-     ' Activate the worksheet
-     
-      ' Set title row
-
-       ' Set initial values
-           
-       ' Get the row number of the last row with data
-
-        'Loop through each row
-            For i = 2 To rowCount
-            
-        ' If ticker changes then print results
-            
-        ' Stores results in variables
-           
-       ' Handle zero total volume
-                   
-       ' Print the results
-                     
-       ' Find first non-zero starting value                
-
-       ' Calculate change
-                       
-       ' Start of the next stock ticker
-                       
-      ' Print the results
-                      
-      ' Colors positives green and negatives red                      
-
-      ' Reset variables for new stock ticker
-                 
-      ' If ticker is still the same add results
-               
-       ' Take the max and min and place them in a separate part in the worksheet
-          
-        ' Returns one less because header row not a factor
-            
-         ' Final ticker symbol for total, greatest % of increase and decrease, and average
-            
-    Next ws
-
-End Sub
+Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in just a few seconds.
+Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
